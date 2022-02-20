@@ -19,9 +19,6 @@ jobs:
       - name: Install
         run: |
           npm ci
-      - name: Test
-        run: |
-          npm run test
       - name: Release
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
