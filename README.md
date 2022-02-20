@@ -1,6 +1,8 @@
 # md-padding README
 
-VS Code plugin for [md-padding][md-padding].
+VS Code plugin for [md-padding][md-padding], install via:
+
+https://marketplace.visualstudio.com/items?itemName=harttle.md-padding-vscode
 
 ## Command
 
