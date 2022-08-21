@@ -43,7 +43,12 @@ export function activate(context: vscode.ExtensionContext) {
 
 function getReplacement (document: vscode.TextDocument): [vscode.Range, string] {
 	const input = document.getText();
-	const output = padMarkdown(input);
+	const config = vscode.workspace.getConfiguration("mdpadding");
+	const options = {
+		ignoreWords: config.get("ignoreWords") as string[]
+	};
+	console.log(config);
+	const output = padMarkdown(input, options);
 
 	var firstLine = document.lineAt(0);
 	var lastLine = document.lineAt(document.lineCount - 1);

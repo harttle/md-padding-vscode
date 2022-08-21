@@ -15,6 +15,16 @@
 	],
 	"main": "./out/extension.js",
 	"contributes": {
+		"configuration": {
+      "title": "Markdown Padding",
+      "properties": {
+        "mdpadding.ignoreWords": {
+          "type": "array",
+          "default": [],
+          "description": "The words/strings you need markdown padding to ignore and leave as it is."
+        }
+      }
+    },
 		"commands": [
 			{
 				"command": "extension.md-padding",
@@ -54,7 +64,7 @@
 		"vscode-test": "^1.3.0"
 	},
 	"dependencies": {
-		"md-padding": "^1.1.1"
+		"md-padding": "^1.2.0"
 	},
 	"release": {
 		"branch": "master",
