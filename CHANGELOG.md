@@ -1,3 +1,10 @@
+# [1.2.0](https://github.com/harttle/md-padding-vscode/compare/v1.1.1...v1.2.0) (2022-08-21)
+
+
+### Features
+
+* upgrade md-padding to v1.2 ([37cfee9](https://github.com/harttle/md-padding-vscode/commit/37cfee9f82c125f67eea68dc071299d6981117e6))
+
 ## [1.1.1](https://github.com/harttle/md-padding-vscode/compare/v1.1.0...v1.1.1) (2022-02-21)
 
 
