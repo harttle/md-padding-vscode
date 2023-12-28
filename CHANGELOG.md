@@ -1,3 +1,10 @@
+## [1.2.1](https://github.com/harttle/md-padding-vscode/compare/v1.2.0...v1.2.1) (2023-12-28)
+
+
+### Bug Fixes
+
+* ordered-list prefix, add Math to inline structures, code block parse ([9d8152c](https://github.com/harttle/md-padding-vscode/commit/9d8152c2c92b7a7a351972bb6205b956792b03e2))
+
 # [1.2.0](https://github.com/harttle/md-padding-vscode/compare/v1.1.1...v1.2.0) (2022-08-21)
 
 
