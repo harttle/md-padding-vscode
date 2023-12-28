@@ -8,26 +8,27 @@ export function activate(context: vscode.ExtensionContext) {
 
 	// Use the console to output diagnostic information (console.log) and errors (console.error)
 	// This line of code will only be executed once when your extension is activated
-	console.log('Extension "md-padding" is now active!');
+	console.debug('Extension "md-padding" is now active!');
 
 	// The command has been defined in the package.json file
 	// Now provide the implementation of the command with registerCommand
 	// The commandId parameter must match the command field in package.json
-	let disposable = vscode.commands.registerCommand('extension.md-padding', () => {
+	let disposable = vscode.commands.registerCommand('extension.md-padding', async () => {
 		const { activeTextEditor } = vscode.window;
 	
 		if (!activeTextEditor) {
-			vscode.window.showInformationMessage('No active editor found, skiping markdown padding...');
+			vscode.window.showInformationMessage('No active editor found, skipping markdown padding...');
 			return;
 		}
 		if (activeTextEditor.document.languageId !== 'markdown') {
 			vscode.window.showInformationMessage(`Language "${activeTextEditor.document.languageId}" not supported, skipping markdown padding...`);
 			return;
 		}
+
 		const [range, text] = getReplacement(activeTextEditor.document);
 		const edit = new vscode.WorkspaceEdit();
 		edit.replace(activeTextEditor.document.uri, range, text);
-		vscode.workspace.applyEdit(edit);
+		await vscode.workspace.applyEdit(edit);
 	});
 
 	vscode.languages.registerDocumentFormattingEditProvider('markdown', {
@@ -47,7 +48,7 @@ function getReplacement (document: vscode.TextDocument): [vscode.Range, string] 
 	const options = {
 		ignoreWords: config.get("ignoreWords") as string[]
 	};
-	console.log(config);
+	console.debug('mdpadding config:', config);
 	const output = padMarkdown(input, options);
 
 	var firstLine = document.lineAt(0);
