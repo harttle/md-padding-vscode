@@ -1,3 +1,10 @@
+## [1.2.2](https://github.com/harttle/md-padding-vscode/compare/v1.2.1...v1.2.2) (2024-01-07)
+
+
+### Bug Fixes
+
+* parse blockquote, allow other blocknodes in blockquote, fixes [#26](https://github.com/harttle/md-padding-vscode/issues/26) ([#27](https://github.com/harttle/md-padding-vscode/issues/27)) ([818496e](https://github.com/harttle/md-padding-vscode/commit/818496e12344b466ee0ca67843fa513af6acf2d5))
+
 ## [1.2.1](https://github.com/harttle/md-padding-vscode/compare/v1.2.0...v1.2.1) (2023-12-28)
 
 
