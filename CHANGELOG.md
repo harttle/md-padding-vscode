@@ -1,3 +1,10 @@
+# [1.3.0](https://github.com/harttle/md-padding-vscode/compare/v1.2.2...v1.3.0) (2024-01-14)
+
+
+### Features
+
+* support Callouts ([f91b0a2](https://github.com/harttle/md-padding-vscode/commit/f91b0a2fc5469f261c52d6c0c1ee829523dbf98a))
+
 ## [1.2.2](https://github.com/harttle/md-padding-vscode/compare/v1.2.1...v1.2.2) (2024-01-07)
 
 
