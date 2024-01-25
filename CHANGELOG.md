@@ -1,3 +1,10 @@
+# [1.4.0](https://github.com/harttle/md-padding-vscode/compare/v1.3.0...v1.4.0) (2024-01-25)
+
+
+### Features
+
+* Support highlight syntax ([221b304](https://github.com/harttle/md-padding-vscode/commit/221b3048033dfa28650c440d6538d533577e65ce))
+
 # [1.3.0](https://github.com/harttle/md-padding-vscode/compare/v1.2.2...v1.3.0) (2024-01-14)
 
 
