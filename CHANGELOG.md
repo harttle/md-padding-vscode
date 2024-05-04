@@ -1,3 +1,10 @@
+# [1.5.0](https://github.com/harttle/md-padding-vscode/compare/v1.4.0...v1.5.0) (2024-05-04)
+
+
+### Features
+
+* upgrade md-padding to 1.5.0 ([ee97098](https://github.com/harttle/md-padding-vscode/commit/ee97098a23d2761ab4e1b1cd9c584a9bb012d855))
+
 # [1.4.0](https://github.com/harttle/md-padding-vscode/compare/v1.3.0...v1.4.0) (2024-01-25)
 
 
