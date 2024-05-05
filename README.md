@@ -24,6 +24,12 @@ Select "Formatting" in the context menu of the editor, or:
 - Mac：Shift + Option + F
 - Linux：Ctrl + Shift + I
 
+## Options
+
+Option | Type | Description
+--- | --- | ---
+`mdpadding.ignoreWords` | `Array<string>` | 这些字词内部和前后禁止加空格
+
 ## Bug Reports, Documentation and Contribution
 
 Please refer to: <https://github.com/harttle/md-padding>
