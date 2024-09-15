@@ -1,3 +1,10 @@
+# [1.6.0](https://github.com/harttle/md-padding-vscode/compare/v1.5.1...v1.6.0) (2024-09-15)
+
+
+### Features
+
+* support ignorePatterns ([ea2c957](https://github.com/harttle/md-padding-vscode/commit/ea2c9572abda189bf9c31d94ac3b85063e5e2405))
+
 ## [1.5.1](https://github.com/harttle/md-padding-vscode/compare/v1.5.0...v1.5.1) (2024-05-05)
 
 
