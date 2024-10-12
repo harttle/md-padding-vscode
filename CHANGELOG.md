@@ -1,3 +1,10 @@
+## [1.6.1](https://github.com/harttle/md-padding-vscode/compare/v1.6.0...v1.6.1) (2024-10-12)
+
+
+### Bug Fixes
+
+* parse unfinished blocks ([e8106ac](https://github.com/harttle/md-padding-vscode/commit/e8106acb60a17781b730dc76cf997f822c3b1b1b))
+
 # [1.6.0](https://github.com/harttle/md-padding-vscode/compare/v1.5.1...v1.6.0) (2024-09-15)
 
 
