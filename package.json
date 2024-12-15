@@ -63,7 +63,7 @@
 		"vscode-test": "^1.3.0"
 	},
 	"dependencies": {
-		"md-padding": "^1.9.1"
+		"md-padding": "^1.9.2"
 	},
 	"release": {
 		"branch": "master",
