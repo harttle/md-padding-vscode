@@ -1,3 +1,10 @@
+# [1.7.0](https://github.com/harttle/md-padding-vscode/compare/v1.6.1...v1.7.0) (2024-12-15)
+
+
+### Features
+
+* update underlying md-padding to 1.9.2 ([088bcba](https://github.com/harttle/md-padding-vscode/commit/088bcba920a68b6f8271966517102aef267392d3)), closes [/github.com/harttle/md-padding/blob/master/CHANGELOG.md#192-2024-12-15](https://github.com//github.com/harttle/md-padding/blob/master/CHANGELOG.md/issues/192-2024-12-15)
+
 ## [1.6.1](https://github.com/harttle/md-padding-vscode/compare/v1.6.0...v1.6.1) (2024-10-12)
 
 
