@@ -28,7 +28,8 @@ Select "Formatting" in the context menu of the editor, or:
 
 Option | Type | Description
 --- | --- | ---
-`mdpadding.ignoreWords` | `Array<string>` | 这些字词内部和前后禁止加空格
+| `mdpadding.ignoreWords`    | `Array<string>` | Words to exclude from padding adjustments       |
+| `mdpadding.ignorePatterns` | `Array<string>` | Regular expressions defining patterns to ignore |
 
 ## Bug Reports, Documentation and Contribution
 
