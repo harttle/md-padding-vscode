@@ -1,3 +1,10 @@
+# [1.8.0](https://github.com/harttle/md-padding-vscode/compare/v1.7.0...v1.8.0) (2025-02-24)
+
+
+### Features
+
+* add logo ([58d4b97](https://github.com/harttle/md-padding-vscode/commit/58d4b9745ca79f8ac72ba4ef7096879251308ded))
+
 # [1.7.0](https://github.com/harttle/md-padding-vscode/compare/v1.6.1...v1.7.0) (2024-12-15)
 
 
